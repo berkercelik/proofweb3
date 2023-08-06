@@ -21,7 +21,6 @@ yarn dev
 ```
 ile çalıştırabilirsiniz. 
 
-
-
+<a href="https://github.com/berkercelik/proofweb3/commits/main" style="color:lime">>_ Commits</a>
 
 
