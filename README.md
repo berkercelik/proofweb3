@@ -2,6 +2,8 @@
 
 Next.js ile web projesi
 
+![home](home.png)
+
 ## Başlarken
 
 Önce 
