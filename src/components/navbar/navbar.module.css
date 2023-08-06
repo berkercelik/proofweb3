@@ -1,0 +1,56 @@
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*option*/
+    font-size: 18px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+}
+
+.link:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+.whoami{
+    background: #bbb;
+    /* background: -webkit-linear-gradient(0deg,black 56%, lime 40%, white); */
+    /* -webkit- bg clip */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.whoami:hover{
+    background-color: lime;
+    transition: 0.4s;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-color 400ms linear;
+}
+
+
+.logout{
+    padding: 5px;
+    border: none;
+    background-color: #2d66ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
