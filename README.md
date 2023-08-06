@@ -1,8 +1,8 @@
 # Proof Web 3
 
-This is a web project with Next.js
+Next.js ile web projesi
 
-## Getting Started
+## Başlarken
 
 Önce 
 ```bash
