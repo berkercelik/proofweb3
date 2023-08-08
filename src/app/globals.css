@@ -8,14 +8,16 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background: linear-gradient(90deg,#181c20, #212e33);
-  /* background-color: #181c20;  */
-  color: #bbb;
+  
 }
 
 a{
   text-decoration: none;
   color: inherit;
+}
+
+.theme{
+  transition: all 1s ease-in;
 }
 
 .container{
@@ -26,4 +28,25 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.light {
+  /* background-color: #181c20;  */
+  color: #111;  
+  background-color:#bbb;
+}
+
+/* .light .links:hover{
+  color: #111;  
+} */
+
+.dark{
+  /* background-color: #181c20;  */
+  color: #bbb;
+  background: linear-gradient(90deg,#181c20, #212e33);
+}
+
+.item:hover .title{
+  color: #2d66ff;
+  transition: 0.3s;
 }
