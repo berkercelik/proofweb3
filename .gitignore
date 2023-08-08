@@ -33,6 +33,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+public/
 public/1.png
 public/2.png
 public/3.png
