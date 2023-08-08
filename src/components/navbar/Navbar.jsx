@@ -40,7 +40,7 @@ const whoami = [
   {
     id: 1,
     title: "Whoami",
-    url: "/about",
+    url: "/whoami",
   },
 ];
 

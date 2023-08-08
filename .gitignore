@@ -46,6 +46,5 @@ public/home1.jpg
 public/home2.jpg
 public/home3.jpg
 .env
-src/app/blog
 src/app/dashboard
 src/app/whoami
